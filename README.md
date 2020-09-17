@@ -10,4 +10,7 @@ This project was completed alone and represents an attempt toward a site more re
 ## Links
 
 #### Webpage 
-[webpage](https://ad-fleming.github.io/updated-portfolio/)
+[Portfolio](https://ad-fleming.github.io/updated-portfolio/)
+
+#### Repository
+[My Repository](https://github.com/ad-fleming/updated-portfolio)

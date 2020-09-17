@@ -52,39 +52,50 @@
           <br>
           <!-- Additionally added ml-3 to duplicate the above ml-3 of the entire wrapping <main>. 
             Added class of 'container' in order to use grid with the below break points -->
-            <article class="container col-12 ml-2 mb-5">
-              <div class="row d-flex justify-content-between">
-                <div class="col-10 col-sm-6 contactCard card"> 
-                  <h1 id="contentTitle">Contact Me</h1>
-                  <hr>
-                  <div class="card-body">
-                    <div class="row">
+            <article class="container row justify-content-between d-flex col-12 row mx-0">
+              <div class="col-12 mb-5 col-md-6 contactCard card"> 
+                <h1 id="contentTitle">Contact Me</h1>
+                <hr>
+                <div class="card-body">
+                  <div class="row">
                       <!-- signified that the column in this row is a 'form group' -->
-                      <form class="col-md-10 form">
-                        <div class="form-group-row">
+                    <form class="col-md-10 form">
+                      <div class="form-group-row">
                           <!-- used the <label> element in order to label the input below. This is replicated throughout the form group -->
-                          <label for="ControlInput1">Name</label>
-                          <input type="text" class="form-control" id="formControlInput1" placeholder="First Last">
-                        </div>
-                        <div class="form-group-row">
-                          <label for="ControlInput2">Email address</label>
-                          <input type="email" class="form-control" id="formControlInput2" placeholder="name@example.com">
-                        </div>
-                        <div class="form-group-row">
-                          <label for="formControlInput3">Message</label>
-                          <textarea class="form-control" id="formControlInput3" rows="3" placeholder="Message"></textarea>
-                        </div>
-                      </form>                 
-                    </div>
+                        <label for="ControlInput1">Name</label>
+                        <input type="text" class="form-control" id="formControlInput1" placeholder="First Last">
+                      </div>
+
+                      <div class="form-group-row">
+                        <label for="ControlInput2">Email address</label>
+                        <input type="email" class="form-control" id="formControlInput2" placeholder="name@example.com">
+                      </div>
+
+                      <div class="form-group-row">
+                        <label for="formControlInput3">Message</label>
+                        <textarea class="form-control" id="formControlInput3" rows="3" placeholder="Message"></textarea>
+                      </div>
+
+                    </form>                 
                   </div>
+                </div>
                   <!-- Placed the Submit button outside of the card body to control it's margin -->
                 <div>
                   <button class="btn  btn-outline-dark submitButton">Submit</button>   
                 </div>
+
                 <br>               
-                </div>
-                
               </div>
+              <!-- Follow Link Card -->
+              <div class="col-12 col-md-4 mr-5 d-flex justify-content-start align-items-center card followMeCard">
+                <h3 class="mb-4 mt-4 text-center">Want to check in on my progress?</h3>
+                <h4 class="mb-4 text-center">Add me on LinkedIn and GitHub!</h4>
+                <br>
+                <br>
+                <h2 class="text-center"><a href="https://www.linkedin.com/in/alexanderfleming0919/">LinkedIn</a></h2>
+                <h2 class="text-center"><a href="https://github.com/ad-fleming">GitHub</a></h2> 
+              </div>
+
             </article>
             
 

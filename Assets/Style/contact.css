@@ -1,11 +1,36 @@
 main{
     margin-bottom: 69px;
+    font-family: 'Montserrat Alternates', sans-serif!important;
+
 }
 body{
-    background-image: url(/landscape.jpg);
+    background-image: url(/Assets/images/landscape.jpg);
    font-family: 'Montserrat Alternates', sans-serif!important;
 }
+p{
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: .5px;
+    line-height: 1.5em;
+    font-family: 'Montserrat Alternates', sans-serif!important;
 
+}
+
+a {
+    color: #453A06;
+    
+}
+
+h3, h4{
+    color: #453A06;
+    text-shadow: .2px .2px whitesmoke;
+
+}
+
+a:hover{
+    color: black;
+
+}
 
 
 .footer-copyright{
@@ -22,6 +47,18 @@ body{
     border-top-right-radius: 15px;
     border-bottom-left-radius: 15px;
     
+}
+.followMeCard{
+    background-color:#DFD798;
+    padding: 10px;
+    color: #453A06;
+    box-shadow: -2px  2px 5px #453A06;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    height: 345px;
+
 }
 
  #contentTitle {

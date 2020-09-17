@@ -1,0 +1,40 @@
+main{
+    margin-bottom: 69px;
+}
+body{
+    background-image: url(https://images.pexels.com/photos/2872393/pexels-photo-2872393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+   font-family: 'Montserrat Alternates', sans-serif!important;
+}
+
+.footer-copyright{
+    background-color: black!important;
+    opacity: .7;
+}
+
+.slide-container{
+    max-width: 475px;
+    max-height: 570px;
+}
+
+.schedulerImg{
+    max-width: 475px;
+    max-height: 400px;
+}
+
+.carousel-control-prev, .carousel-control-next {
+    color: black;
+}
+
+.highlight-card{
+    margin-bottom: 69px;
+}
+
+.highlights{
+    font-size: 50px;
+    text-decoration: underline;
+
+}
+.jumbotron{
+    background-color: ;
+}
+

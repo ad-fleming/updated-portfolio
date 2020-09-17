@@ -65,11 +65,14 @@ main{
     cursor: pointer;
     color: #fff;
     text-shadow: 4px 2px 4px black;
+    font-family: 'Montserrat Alternates', sans-serif!important;
 }
 
 .myRole{
     color: #fff;
     text-shadow: 1px 1px 2px darkgrey;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    letter-spacing: 1px;
 }
 
 

@@ -1,5 +1,2 @@
-var myNameEl = $(".myName");
+$('.carousel').attr("data-interval", "4000");
 
-myNameEl.on("click",function(){
-    window.location.href = "aboutme.html"
-})

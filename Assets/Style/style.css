@@ -13,8 +13,10 @@ main {
 }
 
 .navbar{
-    background-color: black;
+    background-color: black!important;
     opacity: .7;
+    font-family: 'Montserrat Alternates', sans-serif!important;
+
 }
 
 .portfolioImage {
@@ -28,7 +30,7 @@ main {
 
 
 .footer-copyright {
-    border-top: solid 5px #fff ;
+    border-top: solid 5px #fff!important;
     background-color: black;
     padding: 20px;
     opacity: .3;
@@ -45,7 +47,6 @@ main {
 }
 
 .navbar-brand {
-    font-family: 'DM Serif Text', serif;
     font-weight: bolder;
     font-size: 1.5em;
     letter-spacing: 3.0px;
@@ -65,8 +66,8 @@ main {
 
 /* set custom sizing for About Me image, so that once there is not an available space to display at 250px,25px, it shrinks down to 60% width and sets height to be auto */
 #about-me-img {
-    max-width: 250px;
-    max-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
     width: 60%;
     height: auto;
 }

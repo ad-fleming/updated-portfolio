@@ -11,16 +11,16 @@ This project was completed alone and represents an attempt toward a site more re
 Please find screenshots of my portfolio pages below
 
 #### Landing Page
-[LandingPage](Assets/images/landingpagescreen.png)
+![LandingPage](Assets/images/landingpagescreen.png)
 
 #### About Me Page
-[About Me](Assets/images/about-me-screen.png)
+![About Me](Assets/images/about-me-screen.png)
 
 #### Portfolio Page
-[Portfolio](Assets/images/portfolio-screen.png)
+![Portfolio](Assets/images/portfolio-screen.png)
 
 #### Contact Page
-[Contact](Assets/images/contact-screen.png)
+![Contact](Assets/images/contact-screen.png)
 
 ## Links
 

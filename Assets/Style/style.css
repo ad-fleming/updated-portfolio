@@ -24,9 +24,7 @@ main {
 }
 
 
-.submitButton {
-    background:#20B2B2 ;
-}
+
 
 
 .footer-copyright {
@@ -54,15 +52,6 @@ main {
     
 }
 
-#contentTitle {
-    color: #20B2B2 ;
-    font-family: 'Playfair Display', serif;
-    font-weight: 700;
-}
-
-#myName {
-    color: #fff;
-}
 
 /* set custom sizing for About Me image, so that once there is not an available space to display at 250px,25px, it shrinks down to 60% width and sets height to be auto */
 #about-me-img {

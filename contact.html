@@ -9,17 +9,18 @@
       <title></title>
       <meta name="description" content="" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <script src="https://kit.fontawesome.com/f017dba58b.js" crossorigin="anonymous"></script>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
         integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous" />
-      <link rel="stylesheet" href="Assets/style.css" />
+      <link rel="stylesheet" href="Assets/Style/style.css" />
       <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800&display=swap"
         rel="stylesheet" />
       <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
-
+      <link rel="stylesheet" href="Assets/Style/contact.css">
     </head>
     <body>
       <!-- This is a bootstrap navbar which expands at lg (collapses at anything below that breakpoint) and has has the light theme and background -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
           <!-- This the sets the "brand" class in bootstrap. It is assigned to an <a> so that it retains utility if necessary (linking back to homepage) -->
             <a class="navbar-brand ml-2" id="myName" href="index.html">Alexander Fleming</a>
             <!-- This is a 'hamburger' toggle button which naturally alligns left. Because it's next to a sibling element (Navbar-brand in this case), it is automatically alligned to the far right -->
@@ -38,7 +39,7 @@
                   <a class="nav-link" href="portfolio.html">Portfolio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="index.html">About <span class="sr-only">(current)</span></a>
+                    <a class="nav-link" href="aboutme.html">About <span class="sr-only">(current)</span></a>
                   </li>
               </ul>
             </div>
@@ -51,10 +52,10 @@
           <br>
           <!-- Additionally added ml-3 to duplicate the above ml-3 of the entire wrapping <main>. 
             Added class of 'container' in order to use grid with the below break points -->
-            <article class="container ml-2 mb-5">
-              <div class="row">
-                <div class="col-11 col-sm-10 card"> 
-                  <h1 id="contentTitle">Contact</h1>
+            <article class="container col-12 ml-2 mb-5">
+              <div class="row d-flex justify-content-between">
+                <div class="col-12 col-sm-6 contactCard card"> 
+                  <h1 id="contentTitle">Contact Me</h1>
                   <hr>
                   <div class="card-body">
                     <div class="row">
@@ -78,12 +79,15 @@
                   </div>
                   <!-- Placed the Submit button outside of the card body to control it's margin -->
                 <div>
-                  <button class="btn btn-lg btn-info rounded-0 submitButton">Submit</button>   
+                  <button class="btn  btn-outline-dark submitButton">Submit</button>   
                 </div>
                 <br>               
                 </div>
+                
               </div>
             </article>
+            
+
           </main>
           <!-- Used class of footer-copyright after googling footer control. This has a built in styling to position the footer to bottom. I then used the the CSS calc() function to style the <main> height to be 100% of the viewport height - (height of navbar) - (height of the footer)
             I beleive the same could be accomplished by using CSS to make your own custom footer and then placing it to an Absolute, bottom 0 position, RELATIVE to the body and then setting a min-height of 100% of the viewport to the body, in addition to adding a padding the same height as your custom footer??-->

@@ -1,0 +1,38 @@
+main{
+    margin-bottom: 69px;
+}
+body{
+    background-image: url(/landscape.jpg);
+   font-family: 'Montserrat Alternates', sans-serif!important;
+}
+
+
+
+.footer-copyright{
+    background-color: black!important;
+    opacity: .7;
+}
+.contactCard{
+    background-color:#DFD798;
+    padding: 10px;
+    color: #453A06;
+    box-shadow: -2px  2px 5px #453A06;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    
+}
+
+ #contentTitle {
+    color: #453A06 ;
+    font-weight: 500;
+}
+
+.submitButton{
+    color: #453A06;
+}
+
+#myName {
+    color:#fff;
+} 

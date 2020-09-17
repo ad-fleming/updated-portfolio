@@ -22,6 +22,9 @@ Please find screenshots of my portfolio pages below
 #### Contact Page
 ![Contact](Assets/images/contact-screen.png)
 
+#### Demo
+![Portfolio Demo](Assets/images/demo.gif)
+
 ## Links
 
 #### Webpage 

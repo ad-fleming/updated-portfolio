@@ -2,7 +2,7 @@ main{
     margin-bottom: 69px;
 }
 body{
-    background-image: url(https://images.pexels.com/photos/2872393/pexels-photo-2872393.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+    background-image: url(https://images.pexels.com/photos/122458/pexels-photo-122458.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
    font-family: 'Montserrat Alternates', sans-serif!important;
 }
 
@@ -21,18 +21,15 @@ body{
     max-height: 400px;
 }
 
-.carousel-control-prev, .carousel-control-next {
-    color: black;
+.portfolioCard{
+    border-bottom-left-radius: 15px ;
+    border-bottom-right-radius: 15px;
+    background-color: #F7F0DE;
+    opacity: .98;
 }
 
-.highlight-card{
-    margin-bottom: 69px;
-}
-
-.highlights{
-    font-size: 50px;
-    text-decoration: underline;
-
+.card-title{
+    font-weight:700 ;
 }
 .jumbotron{
     background-color:#F7F0DE;

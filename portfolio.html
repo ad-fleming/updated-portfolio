@@ -64,36 +64,33 @@
                 </div>
               </div>
             </article>
-              <div class="row d-flex justify-content-center">
-                <aside class="col-4 card highlight-card">
-                  <h1 class="text-center mb-5 highlights">Highlights</h1>
-                  <div class="container slide-container">
-                  <div id="carouselControls" class="carousel slide" data-ride="carousel">
-                    <div class="carousel-inner">
-                      <div class="carousel-item active">
-                        <img class="d-block w-100" src="password-gen.png" alt="First slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" id="schedulerImg" src="scheduler.png" alt="Second slide">
-                      </div>
-                      <div class="carousel-item">
-                        <img class="d-block w-100" src="weatherapp.png" alt="Third slide">
-                      </div>
-                    </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Previous</span>
-                    </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                      <span class="sr-only">Next</span>
-                    </a>
+              <div class="row d-flex justify-content-around">
+                <div class="card portfolioCard col-10 col-sm-3" style="width: 18rem;">
+                  <img src="password-gen.png" class=" mt-3 card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Password Generator</h5>
+                    <p class="card-text">This basic application generates randomized passwords based on user inputs</p>
+                    <a href="https://ad-fleming.github.io/javaScript-password-generator/" class="btn btn-sm btn-dark">Try it yourself!</a>
                   </div>
                 </div>
-              </aside> 
-
+                <div class="card portfolioCard col-10 col-sm-3" style="width: 18rem;">
+                  <img src="scheduler.png" class=" mt-3 card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Workday Scheduler</h5>
+                    <p class="card-text">This basic day planner utilizes local storage and Moment js to save and display tasks throughout your day!</p>
+                    <a href="https://ad-fleming.github.io/calendar-application/" class="btn btn-sm btn-dark">Try it yourself!</a>
+                  </div>
+                </div>
+                <div class="card portfolioCard col-10 col-sm-3" style="width: 18rem;">
+                  <img src="weatherapp.png" class=" mt-3 card-img-top" alt="...">
+                  <div class="card-body">
+                    <h5 class="card-title">Weather Dashboard</h5>
+                    <p class="card-text">Search by city name to get current and 5-day forecasts around the world!</p>
+                    <a href="https://ad-fleming.github.io/weather-dashboard-app/" class="btn btn-sm btn-dark">Try it yourself!</a>
+                  </div>
+                </div>
+                </div>
               </div>             
-            </div>
           </main>
           <!-- Used class of footer-copyright after googling footer control. This has a built in styling to position the footer to bottom. I then used the the CSS calc() function to style the <main> height to be 100% of the viewport height - (height of navbar) - (height of the footer)
           I beleive the same could be accomplished by using CSS to make your own custom footer and then placing it to an Absolute, bottom 0 position, RELATIVE to the body and then setting a min-height of 100% of the viewport to the body, in addition to adding a padding the same height as your custom footer??-->

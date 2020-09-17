@@ -7,6 +7,21 @@ For the time being, I took the opportunity to try my hand at some thematic color
 ## Credits 
 This project was completed alone and represents an attempt toward a site more representative of my personal style. It's a step in the right direction, but still needs plenty of work. 
 
+## Images
+Please find screenshots of my portfolio pages below
+
+#### Landing Page
+[LandingPage](Assets/images/landingpagescreen.png)
+
+#### About Me Page
+[About Me](Assets/images/about-me-screen.png)
+
+#### Portfolio Page
+[Portfolio](Assets/images/portfolio-screen.png)
+
+#### Contact Page
+[Contact](Assets/images/contact-screen.png)
+
 ## Links
 
 #### Webpage 

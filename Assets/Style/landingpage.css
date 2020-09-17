@@ -10,7 +10,7 @@
 
 @media only screen and (max-width:1280px) {
     body {
-    background-image: url(/Assets/images/landing-md.jpg);
+    background-image: url(/Assets/images/landing-md.jpg
     background-size: cover;
     background-repeat: no-repeat;
     }

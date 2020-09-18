@@ -19,7 +19,7 @@
 
 @media only screen and (max-width:640px) {
     body {
-    background-image: url(../images/sm);
+    background-image: url(../images/sm.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     }

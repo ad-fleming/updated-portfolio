@@ -4,7 +4,7 @@ main{
 
 }
 body{
-    background-image: url(/Assets/images/landscape.jpg);
+    background-image: url(./Assets/images/landscape.jpg);
    font-family: 'Montserrat Alternates', sans-serif!important;
 }
 p{

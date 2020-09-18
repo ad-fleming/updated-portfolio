@@ -4,8 +4,10 @@ This project is a refactoring of our original Bootstrap portfolio replication pa
 
 For the time being, I took the opportunity to try my hand at some thematic color styling, and am fairly happy with the results. I also took advantages of media queries to do some interesting things on my landing page. 
 
+I look forward to continuously updating and improving my portfolio site. 
+
 ## Credits 
-This project was completed alone and represents an attempt toward a site more representative of my personal style. It's a step in the right direction, but still needs plenty of work. 
+This project was completed alone and represents an attempt toward a site more representative of my personal style.
 
 ## Images
 Please find screenshots of my portfolio pages below
